@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('portfolio background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007ACC;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.about-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.about-content .bio {
+    max-width: 600px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#skills ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills ul li {
+    background: #007ACC;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+#projects .project {
+    margin-bottom: 20px;
+}
+
+#contact p a {
+    color: #007ACC;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    background-color: #007ACC;
+    color: white;
+    padding: 10px;
+}
